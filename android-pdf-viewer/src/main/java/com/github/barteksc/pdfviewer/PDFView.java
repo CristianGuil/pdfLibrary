@@ -283,14 +283,14 @@ public class PDFView extends SurfaceView {
         paint = new Paint();
         debugPaint = new Paint();
         debugPaint.setStyle(Style.STROKE);
-//        paintMinimapBack = new Paint();
-//        paintMinimapBack.setStyle(Style.FILL);
-//        paintMinimapBack.setColor(Color.BLACK);
-//        paintMinimapBack.setAlpha(50);
-//        paintMinimapFront = new Paint();
-//        paintMinimapFront.setStyle(Style.FILL);
-//        paintMinimapFront.setColor(Color.BLACK);
-//        paintMinimapFront.setAlpha(50);
+        paintMinimapBack = new Paint();
+        paintMinimapBack.setStyle(Style.FILL);
+        paintMinimapBack.setColor(Color.BLACK);
+        paintMinimapBack.setAlpha(10);
+        paintMinimapFront = new Paint();
+        paintMinimapFront.setStyle(Style.FILL);
+        paintMinimapFront.setColor(Color.BLACK);
+        paintMinimapFront.setAlpha(10);
 
         // A surface view does not call
         // onDraw() as a default but we need it.
